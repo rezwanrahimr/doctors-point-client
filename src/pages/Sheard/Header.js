@@ -5,6 +5,7 @@ import header from './header.css';
 const Header = () => {
     return (
         <div>
+            
             <div className="hero min-h-screen " style={{backgroundImage:`url(${HeaderImage})`,width:"100%"}}>
                 <div className="hero-overlay bg-inherit "></div>
                 <div className="hero-content  text-neutral-content all-content ">
