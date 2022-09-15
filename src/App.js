@@ -2,10 +2,12 @@ import './App.css';
 import Navbar from './pages/Sheard/Navbar';
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home/Home';
+import TopNav from './pages/Sheard/TopNav';
 
 function App() {
   return (
     <div>
+      <TopNav></TopNav>
      <Navbar></Navbar>
      <Routes>
        <Route path='/' element={<Home></Home>}>Home</Route>
