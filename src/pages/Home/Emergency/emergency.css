@@ -1,0 +1,30 @@
+.emergency-item{
+    position: relative;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    font-family: Poppins,sans-serif;
+    color: #344c5d;
+    font-size: 15px;
+}
+
+.emergency-item .info h1{
+    color: #fff;
+    margin-bottom: 18px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.emergency-item .call button{
+    background-color: white;
+    color: black;
+}
+.emergency-bg{
+    background-color:#013fb2;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    padding: 35px 0 15px 100px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    margin-top: -10%;
+   
+}
