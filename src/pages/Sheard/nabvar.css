@@ -2,6 +2,12 @@
     margin-right: 30px;
     display: inline-block;
     box-sizing: border-box;
+    padding: 5px;
+    
+}
+.navbarr{
+    border-bottom: 1px solid rgb(236, 229, 229);
+    
 }
 .Header-details-box .Header-details-icon{
     float: left;

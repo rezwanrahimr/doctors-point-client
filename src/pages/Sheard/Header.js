@@ -10,12 +10,14 @@ const Header = () => {
                 <div className="hero-overlay bg-inherit "></div>
                 <div className="hero-content  text-neutral-content all-content ">
                     <div className="max-w-none  text-content ">
-                        <h1 className="mb-5 text-5xl font-bold font-mono  ">YOUR HEALTH IS</h1>
-                        <h1 className="mb-5 text-5xl font-bold text-6xl font-serif">OUR TOP PRIORITY</h1>
+                        <h1 className="mb-5 text-5xl font-bold   ">YOUR HEALTH IS</h1>
+                        <h1 className="mb-5 text-5xl font-bold text-6xl ">OUR TOP PRIORITY</h1>
                         <p className="mb-5 text-black ">25 Years of experience in Medical Services</p>
-                       <div>
-                       <button class="btn  px-7 bg-emerald-600 border-inherit rounded-full text-white">Doctor  | + </button>
-                       <button class="btn px-7 mx-3 border-inherit bg-rose-600 b-0 rounded-full text-white">Learn More | + </button>
+                       <div className='button-group'>
+                       
+                       <button className='common-button font-bold'>Doctor | +</button>
+                      
+                       
                        </div>
                     </div>
                 </div>
