@@ -1,5 +1,5 @@
 import React from 'react';
-import HeaderImage from '../../assets/Hearder.jpg';
+import HeaderImage from '../../assets/header.PNG';
 import header from './header.css';
 
 const Header = () => {
@@ -14,8 +14,8 @@ const Header = () => {
                         <h1 className="mb-5 text-5xl font-bold text-6xl font-serif">OUR TOP PRIORITY</h1>
                         <p className="mb-5 text-black ">25 Years of experience in Medical Services</p>
                        <div>
-                       <button class="btn  px-7 btn-success rounded-full text-white">Doctor  | + </button>
-                       <button class="btn px-7 mx-3 btn-error rounded-full text-white">Learn More | + </button>
+                       <button class="btn  px-7 bg-emerald-600 border-inherit rounded-full text-white">Doctor  | + </button>
+                       <button class="btn px-7 mx-3 border-inherit bg-rose-600 b-0 rounded-full text-white">Learn More | + </button>
                        </div>
                     </div>
                 </div>

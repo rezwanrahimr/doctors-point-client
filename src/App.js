@@ -7,7 +7,7 @@ import TopNav from './pages/Sheard/TopNav';
 function App() {
   return (
     <div>
-      <TopNav></TopNav>
+      
      <Navbar></Navbar>
      <Routes>
        <Route path='/' element={<Home></Home>}>Home</Route>
