@@ -1,4 +1,5 @@
 
+
 .icons h1 i{
     display: inline-block;
     position: relative;
@@ -16,7 +17,14 @@
     margin-right: 25px;
     
 }
+.icons:hover h1 i{
+    box-shadow: 0 0 0 10px black;
+   
+}
 .information h1{
-    font-family: Poppins,sans-serif;
-    
+   
+   font-family:sans-serif;
+}
+.about-Img img{
+    border-radius: 3%;
 }
