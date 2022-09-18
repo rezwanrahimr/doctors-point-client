@@ -1,4 +1,5 @@
 import React from 'react';
+import LatestPatientOpinion from '../LatestpatientOpinion/LatestPatientOpinion';
 import Header from '../Sheard/Header';
 import AboutUs from './About Us/AboutUs';
 import Emergency from './Emergency/Emergency';
@@ -11,6 +12,7 @@ const Home = () => {
             <Emergency></Emergency>
             <AboutUs></AboutUs>
             <MeetOurDoctors></MeetOurDoctors>
+            <LatestPatientOpinion></LatestPatientOpinion>
            
         </div>
     );
