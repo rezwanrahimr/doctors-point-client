@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../Sheard/Header';
 import AboutUs from './About Us/AboutUs';
 import Emergency from './Emergency/Emergency';
+import MeetOurDoctors from './MeetOurDoctors/MeetOurDoctors';
 
 const Home = () => {
     return (
@@ -9,6 +10,7 @@ const Home = () => {
             <Header></Header>
             <Emergency></Emergency>
             <AboutUs></AboutUs>
+            <MeetOurDoctors></MeetOurDoctors>
            
         </div>
     );
