@@ -5,6 +5,7 @@ import doctor3 from '../../../assets/doctor3.jpg';
 import doctor4 from '../../../assets/doctor8.jpg';
 import doctor5 from '../../../assets/doctor5.jpg';
 import Slider from "react-slick";
+import meetOurDoctor from './meetOurDoctor.css';
 
 const MeetOurDoctors = () => {
 
@@ -23,7 +24,7 @@ const MeetOurDoctors = () => {
       <div>
         <Slider {...settings}>
 
-          <div className='p-5'>
+          <div className='p-5 card-data'>
             <img src={doctor2} alt="" />
             <div className='text-center font-medium mt-2'>
               <h1 className='text-2xl'>
@@ -31,7 +32,7 @@ const MeetOurDoctors = () => {
               <p className='text-1xl text-yellow-600'>Orthodontist</p>
             </div>
           </div>
-          <div className='p-5'>
+          <div className='p-5 card-data'>
             <img src={doctor1} alt="" />
             <div className='text-center font-medium mt-2'>
               <h1 className='text-2xl'>
@@ -39,7 +40,7 @@ const MeetOurDoctors = () => {
               <p className='text-1xl text-yellow-600'>Surgeon</p>
             </div>
           </div>
-          <div className='p-5'>
+          <div className='p-5 card-data'>
             <img src={doctor3} alt="" />
             <div className='text-center font-medium mt-2'>
               <h1 className='text-2xl'>
@@ -47,7 +48,7 @@ const MeetOurDoctors = () => {
               <p className='text-1xl text-yellow-600'>Orthodontist</p>
             </div>
           </div>
-          <div className='p-5'>
+          <div className='p-5 card-data'>
             <img src={doctor4} alt="" />
             <div className='text-center font-medium mt-2'>
               <h1 className='text-2xl'>
@@ -55,7 +56,7 @@ const MeetOurDoctors = () => {
               <p className='text-1xl text-yellow-600'>Pediatrist</p>
             </div>
           </div>
-          <div className='p-5'>
+          <div className='p-5 card-data'>
             <img src={doctor5} alt="" />
             <div className='text-center font-medium mt-2'>
               <h1 className='text-2xl'>

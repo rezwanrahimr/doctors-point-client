@@ -3,6 +3,7 @@ import LatestPatientOpinion from '../LatestpatientOpinion/LatestPatientOpinion';
 import Header from '../Sheard/Header';
 import AboutUs from './About Us/AboutUs';
 import Emergency from './Emergency/Emergency';
+import MakeAppointment from './MakeAppointment/MakeAppointment';
 import MeetOurDoctors from './MeetOurDoctors/MeetOurDoctors';
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
             <AboutUs></AboutUs>
             <MeetOurDoctors></MeetOurDoctors>
             <LatestPatientOpinion></LatestPatientOpinion>
+            <MakeAppointment></MakeAppointment>
            
         </div>
     );

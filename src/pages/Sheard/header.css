@@ -5,17 +5,3 @@
 .all-content{
    margin-right: 350px;
 }
-.button-group .common-button{
-  
-    background-color: #0046c0;
-   border: 2px solid #0046c0;
-   color: white;
-   padding-left: 25px;
-   padding-right: 25px;
-   width: 150px;
-   height: 50px;
-}
-.button-group:hover .common-button{
-    color: white;
-    
-}

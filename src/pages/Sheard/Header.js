@@ -1,5 +1,6 @@
 import React from 'react';
 import HeaderImage from '../../assets/header.PNG';
+import CommonButton from './CommonButton/CommonButton';
 import header from './header.css';
 
 const Header = () => {
@@ -15,7 +16,7 @@ const Header = () => {
                         <p className="mb-5 text-black ">25 Years of experience in Medical Services</p>
                        <div className='button-group'>
                        
-                       <button className='common-button font-bold'>Doctor | +</button>
+                      <CommonButton>Doctor | +</CommonButton>
                       
                        
                        </div>
